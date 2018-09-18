@@ -6,7 +6,7 @@ spring:
 spring:  
   profiles: dev
   application:
-    name: microconfig-config-eureka-client
+    #name: microconfig-config-eureka-client
 server:
   port: 7001
 security:
@@ -27,7 +27,7 @@ eureka:
 spring: 
   profiles: beta
   application:
-    name: microconfig-config-eureka-client
+    #name: microconfig-config-eureka-client
 server:
   port: 7001
 security:
