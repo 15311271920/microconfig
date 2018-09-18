@@ -7,8 +7,6 @@ spring:
   profiles: dev
   application:
     name: microconfig-test-dev
-server:
-  port: 8201
 eureka:
   client:
     service-url:  #客户端进行Eureka注册的配置
@@ -18,8 +16,6 @@ spring:
   profiles: beta
   application:
     name: microconfig-test-defaule
-server:
-  port: 8202
 eureka:
   client:
     service-url:  #客户端进行Eureka注册的配置
