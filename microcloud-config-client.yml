@@ -1,0 +1,22 @@
+spring: 
+  profiles:
+    active:
+    - dev
+---
+spring: 
+  profiles: dev
+  application:
+    name: microconfig-test-dev
+eureka:
+  client:
+    service-url:  #客户端进行Eureka注册的配置
+      defaultZone: http://edmin:mldnjava@eureka-dev.com:7001/eureka
+---
+spring: 
+  profiles: beta
+  application:
+    name: microconfig-test-defaule
+eureka:
+  client:
+    service-url:  #客户端进行Eureka注册的配置
+      defaultZone: http://edmin:mldnjava@eureka-beta.com:7001/eureka
