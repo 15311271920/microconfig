@@ -17,8 +17,8 @@ security:
     password: mldnjava
 eureka:
   client:
-    service-url:
-      defaultZone: http://edmindev:mldnjava@eureka-7001.com:7001/eureka
+    #service-url:
+      #defaultZone: http://edmindev:mldnjava@eureka-7001.com:7001/eureka
     register-with-eureka: false
     fetch-registy: false
   instance:
@@ -38,8 +38,8 @@ security:
     password: mldnjava
 eureka:
   client:
-    service-url:
-      defaultZone: http://edminbeta:mldnjava@eureka-7001.com:7001/eureka
+    #service-url:
+      #defaultZone: http://edminbeta:mldnjava@eureka-7001.com:7001/eureka
     register-with-eureka: false
     fetch-registy: false
   instance:
