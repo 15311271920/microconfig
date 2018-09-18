@@ -3,7 +3,7 @@ spring:
     active:
     - dev
 ---
-spring: 
+spring:  
   profiles: dev
   application:
     name: microconfig-config-eureka-client
