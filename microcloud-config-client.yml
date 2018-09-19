@@ -13,14 +13,22 @@ eureka:
   client:
     service-url:
       defaultZone: http://edmin:mldnjava@eureka-config.com:7301/eureka
+info:
+  app.name: mldn-microcloud-config-dev
+  company.name: www.mldn.cn
+  app.version: config-dev-0.01
 ---
 spring: 
   profiles: beta
   application:
-    name: microconfig-test-defaule
+    name: microconfig-test-beta
 server:
   port: 8202
 eureka:
   client:
     service-url:
       defaultZone: http://edmin:mldnjava@eureka-config.com:7301/eureka
+info:
+  app.name: mldn-microcloud-conifg-beta
+  company.name: www.mldn.cn
+  app.version: config-beta-0.01
